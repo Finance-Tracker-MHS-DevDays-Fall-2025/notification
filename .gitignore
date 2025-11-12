@@ -1,0 +1,25 @@
+# General
+.DS_Store
+.idea
+
+# Env files
+.env
+
+# Go workspace files
+go.work
+go.work.sum
+
+# Local config files
+*.dev.yaml
+
+# Local tools directory
+tools/
+
+# Local certs directory
+certs/
+
+# Local docker-compose file
+docker-compose.dev.yaml
+
+# Local docker containers data directory
+.data/
